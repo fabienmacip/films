@@ -14,6 +14,10 @@ import { AuthService } from './services/auth.service';
 import { MoviesService } from './services/movies.service';
 import { AuthGuardService } from './services/auth-guard.service';
 
+//import firebase from 'firebase';
+//import { initializeApp } from "firebase/app";
+//import { getAnalytics } from "firebase/analytics";
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -38,4 +42,7 @@ import { AuthGuardService } from './services/auth-guard.service';
   ],
   bootstrap: [AppComponent]
 })
-export class AppModule { }
+
+export class AppModule {
+
+}
