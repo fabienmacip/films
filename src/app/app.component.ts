@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-//import firebase from 'firebase';
+import firebase from 'firebase/compat';
 import { initializeApp } from "firebase/app";
 import { getAnalytics } from "firebase/analytics";
 
